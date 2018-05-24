@@ -1,0 +1,25 @@
+title: Neridcraft
+email: info@neridcraft.host
+description: >-
+        Servidor latinoamericano de Minecraft - No premium
+baseurl: "/"
+url: "https://neridcraft.host/"
+ip: "host.neridcraft.host"
+facebook: "https://facebook.com/neridcraft/"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
