@@ -8,11 +8,15 @@ body {
     color: #00AAAA;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    background-image: url('/images/background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
     .content {
         text-align: center;
         padding: 30vh 0 0;
         h1, h2, h3 {
             margin: 0;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
         }
         h1 {
             color: #00AAAA;
@@ -20,7 +24,8 @@ body {
             font-size: 5rem;
         }
         h2, h3 {
-            color: #AAAAAA;
+            //color: #AAAAAA;
+            color: #ffffff;
         }
         h3 {
             cursor: pointer;
